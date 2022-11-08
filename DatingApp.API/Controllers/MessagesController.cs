@@ -98,7 +98,7 @@ using System;
                      new {userId, id = message.Id}, messageToReturn);
              }
 
-              throw new Exception("Creating the message failed on save");
+              throw new Exception("Creating the message failed on save.");
          }
 
           [HttpPost("{id}")]
